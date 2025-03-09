@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 
 # Load dataset (Change file name as needed)
-df = pd.read_excel("C:\Users\bhanu\Downloads\heart_disease_data.xlsx")  # Change to "diabetes_data.xlsx" if needed
+df = pd.read_excel("diabetes_data.xlsx")  # Change to "diabetes_data.xlsx" if needed
 
 # Split features and labels
 X = df.drop(columns=["target"])  # Replace "target" with actual target column name
